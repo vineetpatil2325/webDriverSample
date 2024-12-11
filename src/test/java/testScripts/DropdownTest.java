@@ -10,7 +10,9 @@ public class DropdownTest {
   @Test
   public void selectValue() {
 	  
-	 i
+	  WebDriver driver=new ChromeDriver();
+	  driver.manage().window().maximize();
+	  driver.get("https://testautomationpractice.blogspot.com/");
 	  Select Sel =new Select(driver.findElement(By.id("country")));
 	  //Sel.selectByValue("usa");
 	  //Sel.selectByVisibleText("United Kingdom");
