@@ -26,7 +26,7 @@ public class SeleniumsearchTest {
   public void tearDown() {
 	  driver.close();
   }
-	@Test(priority = 1)
+	@Test
   public void seleniumSearch() throws InterruptedException {
 	  
 	  driver.get("https://www.google.com");
@@ -34,12 +34,12 @@ public class SeleniumsearchTest {
 	  searchBox.sendKeys("Selenium Tutorial");
 	  searchBox.submit();
 	  Thread.sleep(2000);
-	  Assert.assertEquals(driver.getTitle(),"Selenium Tutorial - Google Search");
+	  Assert.assertEquals(driver.getTitle(),"Selenium Tutorial - Google Search Page");
 	  
 	}
 	  
 	
-	  @Test(priority = 2)
+	  @Test(alwaysRun = true, dependsOnMethods =  "seleniumSearch" )
 	  public void javaSearch() throws InterruptedException {
 		  
 		  driver.get("https://www.google.com");

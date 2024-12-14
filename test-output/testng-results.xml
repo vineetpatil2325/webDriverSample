@@ -1,29 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-12T13:16:23 IST" name="Default suite" finished-at="2024-12-12T13:16:36 IST" duration-ms="12607">
+  <suite started-at="2024-12-14T13:17:22 IST" name="Default suite" finished-at="2024-12-14T13:17:49 IST" duration-ms="26992">
     <groups>
     </groups>
-    <test started-at="2024-12-12T13:16:23 IST" name="Default test" finished-at="2024-12-12T13:16:36 IST" duration-ms="12607">
-      <class name="testScripts.SeleniumsearchTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testScripts.SeleniumsearchTest@209da20d]" started-at="2024-12-12T13:16:23 IST" name="setUp" finished-at="2024-12-12T13:16:26 IST" duration-ms="3094" status="PASS">
+    <test started-at="2024-12-14T13:17:22 IST" name="Default test" finished-at="2024-12-14T13:17:49 IST" duration-ms="26992">
+      <class name="testScripts.Exercisetest">
+        <test-method signature="f()[pri:0, instance:testScripts.Exercisetest@fa49800]" started-at="2024-12-14T13:17:22 IST" name="f" finished-at="2024-12-14T13:17:49 IST" duration-ms="26930" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="seleniumSearch()[pri:1, instance:testScripts.SeleniumsearchTest@209da20d]" started-at="2024-12-12T13:16:26 IST" name="seleniumSearch" finished-at="2024-12-12T13:16:30 IST" duration-ms="4043" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- seleniumSearch -->
-        <test-method signature="javaSearch()[pri:2, instance:testScripts.SeleniumsearchTest@209da20d]" started-at="2024-12-12T13:16:30 IST" name="javaSearch" finished-at="2024-12-12T13:16:35 IST" duration-ms="5054" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- javaSearch -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testScripts.SeleniumsearchTest@209da20d]" started-at="2024-12-12T13:16:35 IST" name="tearDown" finished-at="2024-12-12T13:16:36 IST" duration-ms="344" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testScripts.SeleniumsearchTest -->
+        </test-method> <!-- f -->
+      </class> <!-- testScripts.Exercisetest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
