@@ -4,8 +4,7 @@ import org.testng.annotations.Test;
 
 public class SampleOneTest {
   @Test(groups="featureOne")
-  public void testOne() {
-	  System.out.println("Test21 in SampleOne...");
+  public void testOne() {	  System.out.println("Test21 in SampleOne...");
   }
   
   @Test(groups="featureTwo")

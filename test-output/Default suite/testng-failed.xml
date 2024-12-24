@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testScripts.CDPTest">
+      <class name="testScripts.DisplayTest">
         <methods>
-          <include name="geoLocationTest"/>
-          <include name="setup"/>
+          <include name="DisplayElemTest"/>
         </methods>
-      </class> <!-- testScripts.CDPTest -->
+      </class> <!-- testScripts.DisplayTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
